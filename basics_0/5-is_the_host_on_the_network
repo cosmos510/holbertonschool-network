@@ -2,7 +2,7 @@
 # Task: script that pings an IP address passed as an argument.
 
 if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <IP>"
+    echo "Usage: $0 {IP_ADDRESS}"
     exit 1
 fi
 
