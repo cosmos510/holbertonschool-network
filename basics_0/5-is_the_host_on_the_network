@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Task: script that pings an IP address passed as an argument.
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <IP>"
+    exit 1
+fi
