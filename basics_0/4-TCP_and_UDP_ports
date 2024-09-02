@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Task: List the TCP and UDP ports that are open on your machine.
+
+netstat -tuln
