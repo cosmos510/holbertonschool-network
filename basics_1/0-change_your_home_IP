@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # This script will change the IP of your home network
 
+# Backup the original /etc/hosts file
 sudo cp /etc/hosts /etc/hosts.bak
 
+# Add new entries for localhost and facebook.com
 echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts
 echo "8.8.8.8 facebook.com" | sudo tee -a /etc/hosts
